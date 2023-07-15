@@ -11,8 +11,6 @@ import './Form.css'
 
 class FormClass extends Component {
 
-
-
     state = {
         Name: '',
         Rate: '',
@@ -20,13 +18,10 @@ class FormClass extends Component {
         EmpData: []
     };
 
-
-
     changeHandler = (e) => {
         this.setState({ [e.target.name]: e.target.value });
-        console.log(this.state.Name, this.state.Dept, this.state.EmpData);
+        console.log(this.state.Name);
     };
-
 
     clickHandler = (e) => {
         e.preventDefault();
@@ -34,9 +29,8 @@ class FormClass extends Component {
         const newEmployee = { Name, Rate, Dept };
         const updatedEmpData = [...this.state.EmpData, newEmployee];
         this.setState({ EmpData: updatedEmpData, Name: '', Rate: '', Dept: '' });
+        console.log(this.state.Name, this.state.Dept, this.state.Rate, this.state.EmpData);
     };
-
-
 
     render() {
         const { Name, Rate, Dept, EmpData } = this.state;
@@ -45,8 +39,6 @@ class FormClass extends Component {
             <div className='container'>
 
                 <h1 className='my-heading'>Employee Feedback Form</h1>
-
-
 
                 <form>
                     <div className='name-area'>
@@ -90,8 +82,6 @@ class FormClass extends Component {
                     </div>
                     <button onClick={this.clickHandler}>Submit</button>
                 </form>
-
-
 
                 {EmpData.length > 0 && (
                     <div className='output'>
