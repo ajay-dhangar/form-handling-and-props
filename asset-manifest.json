@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/form-handling-and-props/static/css/main.8585c748.css",
-    "main.js": "/form-handling-and-props/static/js/main.06b65e7c.js",
+    "main.css": "/form-handling-and-props/static/css/main.71e8d351.css",
+    "main.js": "/form-handling-and-props/static/js/main.71812a5c.js",
     "index.html": "/form-handling-and-props/index.html",
-    "main.8585c748.css.map": "/form-handling-and-props/static/css/main.8585c748.css.map",
-    "main.06b65e7c.js.map": "/form-handling-and-props/static/js/main.06b65e7c.js.map"
+    "main.71e8d351.css.map": "/form-handling-and-props/static/css/main.71e8d351.css.map",
+    "main.71812a5c.js.map": "/form-handling-and-props/static/js/main.71812a5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8585c748.css",
-    "static/js/main.06b65e7c.js"
+    "static/css/main.71e8d351.css",
+    "static/js/main.71812a5c.js"
   ]
 }
